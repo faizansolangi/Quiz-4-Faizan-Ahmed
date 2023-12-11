@@ -10,13 +10,13 @@ export function ContactUs() {
           <Col md={6}>
             <Form.Group controlId="fullName">
               <Form.Label>Full Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your full name" />
+              <Form.Control type="text" placeholder="e.g. Faizan Ahmed" />
             </Form.Group>
           </Col>
           <Col md={6}>
             <Form.Group controlId="phone">
               <Form.Label>Phone</Form.Label>
-              <Form.Control type="text" placeholder="Enter your phone number" />
+              <Form.Control type="text" placeholder="e.g. 0308 3372042" />
             </Form.Group>
           </Col>
         </Row>
@@ -25,13 +25,13 @@ export function ContactUs() {
           <Col md={6}>
             <Form.Group controlId="address">
               <Form.Label>Address</Form.Label>
-              <Form.Control type="text" placeholder="Enter your address" />
+              <Form.Control type="text" placeholder="e.g. Sukkur, Rohri" />
             </Form.Group>
           </Col>
           <Col md={6}>
             <Form.Group controlId="email">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Enter your email address" />
+              <Form.Control type="email" placeholder="e.g. faizansolangi576@gmail.com" />
             </Form.Group>
           </Col>
         </Row>
